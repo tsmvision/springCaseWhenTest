@@ -3,6 +3,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
+#    url: jdbc:mysql://localhost:3306/employee_db
+#    username: root
+#    password: root
   jpa:
     hibernate:
       ddl-auto: none
