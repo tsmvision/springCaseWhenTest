@@ -40,7 +40,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepositoryCustom{
                         department.name,
                         isDepartmentNameTraining
                 )
-                .orderBy(isDepartmentNameTraining.desc(), employee.firstName.desc())
+                .orderBy(isDepartmentNameTraining.asc(), employee.firstName.desc())
                 .fetch();
     }
 
